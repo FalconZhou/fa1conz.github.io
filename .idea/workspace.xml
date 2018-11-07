@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fe319ff-80cb-4def-8adf-e4b956a99840" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2015/01/29/hello-2015/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/04/14/unix-linux-note/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/05/25/js-module-loader/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/07/09/js-module-7day/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2015/09/22/js-version/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/README.zh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +41,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -180,12 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541580167605</updated>
       <workItem from="1541580168710" duration="3031000" />
-      <workItem from="1541587981236" duration="243000" />
+      <workItem from="1541587981236" duration="388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3301000" />
+    <option name="totallyTimeSpent" value="3446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -434,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
