@@ -2,7 +2,7 @@
 layout:     post
 title:      "Markdown常用语法"
 subtitle:   "\"Hello world.\""
-date:       2018-11-01 12:00:00
+date:       2018-11-01 13:00:00 +0800
 author:     "Fa1ConZ"
 header-img: "img/post-bg-2015.jpg"
 tags:

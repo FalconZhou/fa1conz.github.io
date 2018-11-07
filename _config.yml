@@ -97,3 +97,7 @@ friends: [
 #        href: "#"
     }
 ]
+
+# Timezone
+timezone: Asia/Shanghai
+future: true
