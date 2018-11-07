@@ -1,6 +1,6 @@
 # Site settings
 title: FalconZhou's Blog
-SEOTitle: Fz的博客 | Fz's Blog
+SEOTitle: Fz的博客 | Fz's Blog | Falcon | FalconZhou
 header-img: img/home-bg.jpg
 email: falcon.zjx1225@gmail.com
 description: ""
@@ -13,10 +13,10 @@ keyword: ""
 # SNS settings
 RSS: false
 #weibo_username:
-#zhihu_username:
-github_username:    FalconZhou
+zhihu_username: zhou-jing-xuan-19
+github_username: FalconZhou
 #twitter_username:
-facebook_username:  Jingxuan Zhou
+#facebook_username:  Jingxuan Zhou
 
 
 
@@ -50,19 +50,18 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # disqus settings（https://disqus.com/）
-disqus_username: jingxuanzhou
+#disqus_username: jingxuanzhou
 # Share component is depend on Comment so we can NOT use share only.
-disqus_share: true                     # set to false if you want to use Comment without Sharing
+#disqus_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id:
+ba_track_id: bc8e534c618f7bbdcbaa02c8ff7a64f4
 # Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
+ga_track_id: 'UA-128874333-1'            # Format: UA-xxxxxx-xx
 
 
 
@@ -84,17 +83,17 @@ friends: [
     {
         title: "Hux Blog",
         href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+#    },{
+#        title: "Foo",
+#        href: "#"
+#    },{
+#        title: "Bar",
+#        href: "#"
+#    },{
+#        title: "Example Friends",
+#        href: "#"
+#    },{
+#        title: "It helps SEO",
+#        href: "#"
     }
 ]
