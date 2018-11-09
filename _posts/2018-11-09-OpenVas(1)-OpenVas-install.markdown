@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      "OpenVas(1)-OpenVas安装"
+subtitle:   "OpenVas"
+date:       2018-11-09 12:00:00 +0800
+author:     "Fa1ConZ"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - OpenVas
+---
+
 参考文档：http://blog.51cto.com/linhong/2134910?source=drh
 
 ---
