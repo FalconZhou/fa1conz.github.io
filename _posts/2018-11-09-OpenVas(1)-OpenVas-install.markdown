@@ -12,7 +12,7 @@ tags:
 参考文档：http://blog.51cto.com/linhong/2134910?source=drh
 
 ---
-[toc]
+[ TOC ]
 
 ---
 # 安装环境

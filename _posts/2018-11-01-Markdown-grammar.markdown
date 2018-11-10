@@ -9,7 +9,7 @@ tags:
     - Markdown
 ---
 
-[TOC]
+[ TOC ]
 
 # 标题
 语法：#
