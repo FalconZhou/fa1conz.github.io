@@ -119,7 +119,7 @@ kali自带源国内访问比较慢，所以更新为国内aliyun的镜像源。
 
 
 登录
-访问前，关闭本地代理和防火墙，并在liu'lan'qi确认未授权证书通过。
+访问前，关闭本地代理和防火墙，并在浏览器确认未授权证书通过。
 - 本地登录
 ![image](http://note.youdao.com/yws/res/13308/2832B98FBD854E85B716A71473348755)
 
@@ -127,3 +127,8 @@ kali自带源国内访问比较慢，所以更新为国内aliyun的镜像源。
 ![image](http://note.youdao.com/yws/res/13311/89A4D6B1DD3E4BB7B149020BE200711E)
 
 
+## 后记
+
+邮箱：<falcon.zjx1225@gmail.com>
+
+欢迎转载，请注明出处，谢谢。

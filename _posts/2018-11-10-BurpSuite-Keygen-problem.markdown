@@ -12,9 +12,9 @@ tags:
 
 ## 前言
 - 环境：
-
-```kali 2018.2```
-
+```
+kali 2018.2
+```
 - 系统源：
 ```
 deb http://mirrors.aliyun.com/kali kali-rolling main non-free contrib 
@@ -72,7 +72,10 @@ apt-get dis-upgrade
 ```
 
 每次要打开BurpSuite，只用在该目录下运行
-> ./run.sh
+```
+./run.sh
+``` 
+
 ---
 
 关于版本问题，如果有Java大佬有更好的解决方案，欢迎提出建议。
