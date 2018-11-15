@@ -34,7 +34,7 @@ pip install --upgrade pip
 pip install pybloomfiltermmap
 ```
 
-4. 修改W3AF配置文件
+4. 修改W3AF配置文件。
 ```
 #修改requirements.py文件相关配置
 vim w3af/w3af/core/controllers/dependency_check/requirements.py
@@ -47,11 +47,13 @@ PIPDependency('lxml', 'lxml', '4.2.5'),
 vim w3af/core/controllers/dependency_check/platforms/mac.py
 
 MAC_CORE_PIP_PACKAGES.remove(PIPDependency('pybloomfilter', 'pybloomfiltermmap', '0.3.15')
+
 ```
+
 
 5. 执行`./w3af_gui`，系统提示需要的依赖库，并在`/tmp`生成安装依赖的脚本`w3af_dependency_install.sh`。
 
-6. 运行`./w3af_dependency_install.sh`
+6. 运行`./w3af_dependency_install.sh`。
 ```
 cd /tmp
 ./w3af_dependency_install.sh
