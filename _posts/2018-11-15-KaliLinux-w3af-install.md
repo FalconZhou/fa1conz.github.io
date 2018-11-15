@@ -16,25 +16,25 @@ python2.7
 
 由于Kali Linux 2018.2版本不再自带W3AF工具，所以需要自行从网上进行源码安装。
 
-- 首先下载源码到`/usr/local/src`目录
+首先下载源码到`/usr/local/src`目录
 ```
 cd /usr/local/src
 git clone https://github.com/andresriancho/w3af.git
 ```
 
-- 更新源和pip
+更新源和pip
 ```
 apt-get update
 apt-get dis-upgrade
 pip install --upgrade pip
 ```
 
-- 安装pybloomfiltermmp
+安装pybloomfiltermmp
 ```
 pip install pybloomfiltermmap
 ```
 
-- 修改W3AF配置文件。
+修改W3AF配置文件。
 
 
 1.修改requirements.py
@@ -44,7 +44,6 @@ vim w3af/w3af/core/controllers/dependency_check/requirements.py
 PIPDependency('pybloomfilter', 'pybloomfiltermmap', '0.3.15'),
 PIPDependency('OpenSSL', 'pyOpenSSL', '16.2.0'),
 PIPDependency('lxml', 'lxml', '4.2.5'),
-
 ```
 
 2.修改mac.py
@@ -55,31 +54,31 @@ MAC_CORE_PIP_PACKAGES.remove(PIPDependency('pybloomfilter', 'pybloomfiltermmap',
 ```
 
 
-- 执行`./w3af_gui`，系统提示需要的依赖库，并在`/tmp`生成安装依赖的脚本`w3af_dependency_install.sh`。
+执行`./w3af_gui`，系统提示需要的依赖库，并在`/tmp`生成安装依赖的脚本`w3af_dependency_install.sh`。
 
-- 运行`./w3af_dependency_install.sh`。
+运行`./w3af_dependency_install.sh`。
 ```
 cd /tmp
 ./w3af_dependency_install.sh
 ```
 
--  提示缺少npm，安装npm
+提示缺少npm，安装npm
 ```
 apt-get install npm
 ```
 
-- 再次运行`./w3af_dependency_install.sh`
+再次运行`./w3af_dependency_install.sh`
 ```
 ./w3af_dependency_install.sh
 ```
 
-- 执行`./w3af_console`，系统提示需要的依赖库，进行补充安装。
+执行`./w3af_console`，系统提示需要的依赖库，进行补充安装。
 ```
 cd /usr/local/src/w3af/w3af
 ./w3af_console
 ```
 
--  系统已可正常执行`./w3af_console`，但是执行`./w3af_gui`时提示缺少`webkit`库，所以需要安装`webkit`库。pip和源中都已经不包含`webkit`库及相关依赖库，需要进行源码安装。
+系统已可正常执行`./w3af_console`，但是执行`./w3af_gui`时提示缺少`webkit`库，所以需要安装`webkit`库。pip和源中都已经不包含`webkit`库及相关依赖库，需要进行源码安装。
 
 1.下载deb包：
 ```
@@ -97,8 +96,9 @@ dpkg -i libwebkitgtk-1.0-0_2.4.11-3_amd64.deb
 dpkg -i python-webkit_1.1.8-3_amd64.deb
 ```
 
-- 安装完成，已可正常运行`w3af_console`和`w3af_gui`，为方便执行，将两个执行路径添加至`alias`。
-```shell
+安装完成，已可正常运行`w3af_console`和`w3af_gui`，为方便执行，将两个执行路径添加至`alias`。
+
+```
 vim /root/.bashrc
 :/alias
 在下面段添加w3af_gui和w3af_console命令。
