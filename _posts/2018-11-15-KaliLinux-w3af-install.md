@@ -36,22 +36,21 @@ pip install pybloomfiltermmap
 
 4. 修改W3AF配置文件。
 
+(1). 修改requirements.py
 ```
-
-#修改requirements.py文件相关配置
 vim w3af/w3af/core/controllers/dependency_check/requirements.py
 
 PIPDependency('pybloomfilter', 'pybloomfiltermmap', '0.3.15'),
 PIPDependency('OpenSSL', 'pyOpenSSL', '16.2.0'),
 PIPDependency('lxml', 'lxml', '4.2.5'),
-```
 
 ```
-#修改mac.py
+
+(2). 修改mac.py
+```
 vim w3af/core/controllers/dependency_check/platforms/mac.py
 
 MAC_CORE_PIP_PACKAGES.remove(PIPDependency('pybloomfilter', 'pybloomfiltermmap', '0.3.15')
-
 ```
 
 
