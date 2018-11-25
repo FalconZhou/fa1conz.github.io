@@ -60,7 +60,7 @@ kali自带源国内访问比较慢，所以更新为国内aliyun的镜像源。
 
 > openvas-setup
 
-![image](../img/404-bg.jpg)
+![image](https://falconzhou.github.io/2018/11/09/img/404-bg.jpg)
  
 ![image](http://note.youdao.com/yws/res/13259/4B0232B1A31848D090C76F86D8C70120)
 
